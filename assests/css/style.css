@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+body{
+    font-family: "Almarai", sans-serif;
+}
+.navbar{
+    background-color: white;
+    box-shadow:rgba(0,0,0,0.08)0px 2px 4px 0px;
+}
+.navbar img {
+    width: 120px;
+
+
+}
+.navbar .nav-link {
+font-size: 15px;
+font-weight: 400;
+
+}
+.navbar .join{
+    background-color:rgb(223, 50,73) ;
+    color:white;
+    border-radius:15px;
+    width:fit-content;
+    padding: 7px;
+
+}
