@@ -1,0 +1,82 @@
+.courses {
+    margin-top: 70px;
+    padding: 35px 0px;
+}
+
+.courses .categore {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.courses .courses-title {
+    background-color: rgba(33, 37, 41, 0.03);
+    border-radius: 10px;
+    padding: 15px 8px;
+}
+
+.courses .courses-title label {
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.courses h2 {
+    color: rgb(19, 67, 97);
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.courses .btn-courses {
+    background-color: rgb(230, 31, 91);
+    color: #fff;
+}
+
+.courses.course-card {
+    background-color: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+}
+
+.courses .card-img {
+    height: 200px;
+}
+
+.courses.card-img img {
+    object-fit: cover;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.courses .card-body {
+    padding: 10px;
+
+}
+
+.courses .card-body h4 {
+    font-size: 15px;
+    font-weight: 700;
+    height: 40px;
+    color: rgb(19, 67, 97);
+}
+
+.courses .card-body .card-p {
+    text-align: end;
+}
+
+.courses .price {
+    font-size: 24px;
+    font-weight: 700;
+    color: red;
+}
+
+.courses-body {
+    background-color: rgba(33, 37, 41, 0.03);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px 10px;
+
+
+}

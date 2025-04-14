@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="./assests/css/public.css">
-    <link rel="stylesheet" href="./assests/css/style.css">
-    <title>اكاديمية hub</title>
+    <link rel="stylesheet" href="./assests/css/courses.css">
+    <title>الدورات</title>
 </head>
 
 <body>
@@ -40,79 +40,38 @@
             </div>
     </nav>
 
-    <section class="hero">
+    <section class="courses">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
+            <h2>تصفح الدورات</h2>
+            <div class="row courses-title">
 
-                    <img src="./images/main.png" alt="">
-                </div>
-                <div class="col-md-6 hero-text">
-                    <h1>اطمح، تعلّم، تقدّم</h1>
-                    <p>نُقدم دورات تدريبية في مجالات البرمجة المختلفة بأسلوب تدريبي يركز على التطبيق العملي وبناء
-                        المشاريع.</p>
-                    <button class="btn btn-hero">اكتشف دوراتنا</button>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <section class="feature">
-        <div class="container">
-            <div class="feature-title">
-                <h2>
-                    لماذا تختار اكاديميتنا؟
-                    <img src="https://imagedelivery.net/8T78ZpVGfNBEC4Ric8RkRg/3fd8dffb-0d0e-4e10-ff65-a5902eefca00/original"
-                        alt="">
-                </h2>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="item">
-                            <div class="feature-icon">
-                                <i class="fa-solid fa-laptop-code"></i>
-                            </div>
-                            <h3>محتوى عملي</h3>
-                            <p>نركز على التطبيق العملي والمشاريع الحقيقية لضمان اكتساب المهارات اللازمة لسوق العمل</p>
-                        </div>
-
-                    </div>
-                    <div class="col-md-4">
-                        <div class="item">
-                            <div class="feature-icon">
-                                <i class="fa-solid fa-chalkboard-user"></i>
-                            </div>
-                            <h3>مدربون محترفون</h3>
-                            <p>يقدم الدورات نخبة من المدربين ذوي الخبرة العملية في مجالات البرمجة والتصميم</p>
-                        </div>
-
-                    </div>
-                    <div class="col-md-4">
-                        <div class="item">
-                            <div class="feature-icon">
-                                <i class="fa-solid fa-certificate"></i>
-                            </div>
-                            <h3>شهادات معتمدة</h3>
-                            <p>احصل على شهادة اتمام معتمدة بعد اكمال كل دورة تدريبية تساعدك في تعزيز سيرتك الذاتية</p>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-
-
-    </section>
-    <section class="popular">
-        <div class="container">
-            <h2>
-                اشهر الدورات
-                <img src="https://imagedelivery.net/8T78ZpVGfNBEC4Ric8RkRg/3fd8dffb-0d0e-4e10-ff65-a5902eefca00/original"
-                    alt="">
-            </h2>
-            <div class="row">
                 <div class="col-md-4">
+                    <label>التصنيف</label>
+                    <select name="categore" id="categore" class="form-select">
+                        <option value="all">الكل</option>
+                        <option value="web">ويب</option>
+
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label>نطاق السعر</label>
+                    <select name="price" id="price" class="form-select">
+                        <option value="all">الكل</option>
+                        <option value="web">20-30</option>
+
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label>بحث</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="text-end mt-3">
+                    <button class="btn btn-courses">تطبيق الفلتر</button>
+
+                </div>
+            </div>
+            <div class="row courses-body">
+                <div class="col-lg-4 col-sm-6">
                     <div class="course-card">
                         <div class="card-img">
                             <img src="https://imagedelivery.net/8T78ZpVGfNBEC4Ric8RkRg/7664be06-135e-4427-8625-1f18a7580000/original"
@@ -153,7 +112,7 @@
 
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-sm-6">
                     <div class="course-card">
                         <div class="card-img">
                             <img src="https://imagedelivery.net/8T78ZpVGfNBEC4Ric8RkRg/7664be06-135e-4427-8625-1f18a7580000/original"
@@ -194,7 +153,7 @@
 
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-sm-6">
                     <div class="course-card">
                         <div class="card-img">
                             <img src="https://imagedelivery.net/8T78ZpVGfNBEC4Ric8RkRg/7664be06-135e-4427-8625-1f18a7580000/original"
@@ -234,12 +193,13 @@
                         </div>
 
                     </div>
-                </div>
+                
+
             </div>
-        </div>
         </div>
 
     </section>
+
 
 
 
@@ -285,8 +245,7 @@
 
     </footer>
 
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-    <script src="./assests/js/main.js"></script>
+
 </body>
 
 </html>
