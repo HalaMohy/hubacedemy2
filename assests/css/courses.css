@@ -96,3 +96,20 @@
 .btn-show{
     background-color: #e0e0e0;
 }
+.edit-btn{
+background-color:#3498db;
+color: white;
+}
+.btn-cour{
+border-radius: 8px;
+padding: 8px 15px;
+font-size: 14px;
+}
+.btn-delete{
+    background-color:#e74c3c;
+    border: 0;
+    color: white;
+}
+.btn-show{
+    background-color: #e0e0e0;
+}

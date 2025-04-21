@@ -3,6 +3,13 @@
 body {
     font-family: "Almarai", sans-serif;
 }
+p{
+margin: 0px;
+
+}
+a{
+    text-decoration: none;
+}
 
 ul {
     list-style-type: none;
@@ -86,6 +93,19 @@ ul {
 .footer .final-logo {
     display: flex;
     justify-content: center;
+}
+.btn-project{
+    background-color: rgb(230, 31, 91) !important;
+    color: #fff !important;
+}
+.title-h3{
+
+    color: rgb(19, 67, 97);
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #eee;
 }
 @media(max-width:760px){
     .social-media{

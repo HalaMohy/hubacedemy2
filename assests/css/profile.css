@@ -1,0 +1,26 @@
+.profile{
+margin-top: 80px;
+padding: 10px 0;
+margin-bottom: 20px;
+direction: rtl;
+
+}
+.sidebar a{
+padding: 15px;
+margin-bottom: 10px;
+border-radius: 8px;
+border: 1px solid #eee;
+color: black;
+
+}
+.sidebar a:hover{
+    background-color: rgb(222, 226, 230);
+}
+.img-profile{
+width: 120px;
+}
+.img-profile img{
+width: 100%;
+border-radius: 50%;
+
+}
